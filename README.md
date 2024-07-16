@@ -12,6 +12,8 @@ When clicking on an item, it will be removed from firebase and disappear in the 
 
 ## Screenshots:
 
+![screenshot 1](assets/screenshots/Screenshot 1.png) ![screenshot 2](assets/screenshots/Screenshot 2.png)
+
 ## Code overview:
 **Firebase:** <br/>
 importing firebase methods
