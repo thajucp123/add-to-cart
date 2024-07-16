@@ -2,8 +2,9 @@
 **Add to cart : Javascript & Firebase Project** <br/>
  - Just a simple shopping cart app that will add, delete data using firebase realtime database. <br/>
  - Used vanilla Javascript and regular CSS.
-<br>
-**Live Demo:** [addtocart-thaju.netlify.app/](https://addtocart-thaju.netlify.app/) <br>
+<br/>
+**Live Demo:** [addtocart-thaju.netlify.app/](https://addtocart-thaju.netlify.app/)
+<br/>
 ## Usage:
 Users can enter cart items and click the button, it will get added to firebase and will be shown in below section.<br/>
 When clicking on an item, it will be removed from firebase and disappear in the app.
@@ -11,24 +12,24 @@ When clicking on an item, it will be removed from firebase and disappear in the 
 ## Screenshots:
 
 ## Code overview:
-**Firebase:** <br>
+**Firebase:** <br/>
 importing firebase methods
 ```
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
 ```
-<br>
+<br/>
 initializing app and defining database reference
-<br>
+<br/>
 
 ```
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
 const cartDB = ref(database, "cart");
 ```
-<br>
+<br/>
 Use the onValue method to do something whenever data changes in firebase database
-<br>
+<br/>
 
 ```
 onValue(cartDB,(snapshot)=>{
