@@ -12,7 +12,7 @@ When clicking on an item, it will be removed from firebase and disappear in the 
 
 ## Screenshots:
 
-<img src="assets/screenshots/Screenshot 1.png"/> ![screenshot 2]("assets/screenshots/Screenshot 2.png")
+<img src="assets/screenshots/Screenshot 1.png" height="100"/> <img src="assets/screenshots/Screenshot 2.png" height="100"/>
 
 ## Code overview:
 **Firebase:** <br/>
